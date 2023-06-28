@@ -1,0 +1,46 @@
+body {
+  background-color: #ccc;
+}
+
+.slick {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.card {
+  border: 1px solid #fff;
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 400px;
+  color: #fff;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-top h1 {
+  font-size: 1rem;
+  margin-top: 10px 20px;
+}
+
+.card-top > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  margin: 10px 20px;
+}
